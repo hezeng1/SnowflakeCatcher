@@ -3,7 +3,7 @@ void setup()
 {
   noStroke();
   size(300,300);
-  snow = new Snowflake[200];
+  snow = new Snowflake[50];
   for(int i = 0; i<snow.length;i++)
   {
     snow[i] = new Snowflake();
